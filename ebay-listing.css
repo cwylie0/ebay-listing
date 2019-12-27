@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+}
+
+dt {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+dd,
+dl {
+    margin: 0px;
+}
+
+td:nth-child(odd) {
+    width: 26%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background: #5CAA43;
+    padding: 7px;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    border-top: 1px solid #5CAA43;
+    border-bottom: 1px solid #5CAA43;
+    padding: 5px;
+}
